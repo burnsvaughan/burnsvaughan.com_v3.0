@@ -1,6 +1,7 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
 import SocialHeader from './SocialHeader.js'
+import MenuHeader from './MenuHeader.js'
 
 class App extends Component {
   constructor () {
@@ -15,7 +16,8 @@ class App extends Component {
   render () {
     return (
       <div>
-      <SocialHeader /> 
+      <SocialHeader />
+      <MenuHeader /> 
       </div>
     )
   }

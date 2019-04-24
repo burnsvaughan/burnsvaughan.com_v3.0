@@ -1,0 +1,54 @@
+.menu-bar {
+    width:100vw;
+    max-width:100%;
+    height:8vh;
+    max-height:8vh;
+    background:#BB80DB;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+.menu-bar:hover{
+    background:#040206;
+    color:#BB80DB;
+}
+
+.menu-bar:hover .menu-bar-container{
+    background:#040206;
+    color:#BB80DB;
+}
+
+.menu-bar:hover .menu-bar-container .side-nav{
+    background:#040206;
+    color:#BB80DB;
+}
+
+.menu-bar:hover a{
+    background:#040206;
+    color:#BB80DB;
+}
+    
+.menu-bar-container {
+    width:88vw;
+    height:8vh;
+    max-height:8vh;
+    background:#BB80DB;
+    margin:0 auto;
+    overflow:hidden;
+    color: #040206;
+}
+
+
+.logo {
+    font-size:4vh;
+    font-weight:600; 
+    float: right;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.logo img{
+    height: 6vh;
+    width: 35vh; 
+}
